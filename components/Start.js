@@ -134,6 +134,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     paddingVertical: '6%',
+    borderRadius: 10,
   },
 
   input: {
@@ -160,6 +161,7 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     color: '#757083',
     opacity: 100,
+    alignItems: 'center',
   },
 
   colors: {
@@ -172,6 +174,7 @@ const styles = StyleSheet.create({
     height: 40,
     marginTop: 10,
     marginRight: 25,
+    alignItems: 'center',
   },
 
   button: {
@@ -179,7 +182,8 @@ const styles = StyleSheet.create({
     width: '88%',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#757083',
+    backgroundColor: '#646e81',
+    borderRadius: 15,
   },
 
   buttonText: {
